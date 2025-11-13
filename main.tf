@@ -8,10 +8,12 @@ terraform {
 }
 
 provider "minio" {
-    endpoint = "http://localhost:9000"
+    minio_server = "localhost:9000"
     minio_access_key = "minioadmin"
     minio_secret_key = "minioadmin"
+    minio_ssl = false
 }
+
 resource "minio_s3_bucket" "tp1_bucket" {
     bucket = "tp1-cloud-bucket"
     acl = "private"
