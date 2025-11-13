@@ -1,0 +1,4 @@
+windows_amd64*
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
