@@ -29,3 +29,7 @@ css_url = "http://127.0.0.1:9000/tp1-cloud-bucket/style.css"
 index_url = "http://127.0.0.1:9000/tp1-cloud-bucket/index.html"
 
 avec les secrets ont fait : tofu apply -var-file="secrets.tfvars
+
+Ajout de restriction sur la policy pour le html blocked qui ne doit pas s'afficher dans le navigateur (Get de la page)
+
+![site](images/blocked.png)
