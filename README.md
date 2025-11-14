@@ -17,3 +17,7 @@ ajout d'un fichier secret.tfvars.example
 
 ![html](images/html.png)
 
+La page html n'était pas accéssible a l'affichage juste dans le bucket
+ajout de resource "minio_iam_policy" "public_policy" pour ouvrir l'accès à la page
+
+![site](images/site.png)
